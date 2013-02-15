@@ -1,0 +1,326 @@
+{
+   "administrators" : [
+      {
+         "email" : "igable@uvic.ca",
+         "name" : "Ian Gable"
+      }
+   ],
+   "organizations" : [
+      {
+         "sites" : [
+            {
+               "hosts" : [
+                  {
+                     "measurement_archives" : [
+                        {
+                           "read_url" : "http://ps-bandwidth.hepnetcanada.ca:8085/perfSONAR_PS/services/pSB",
+                           "write_url" : "ps-bandwidth.hepnetcanada.ca:8570",
+                           "type" : "perfsonarbuoy/bwctl"
+                        }
+                     ],
+                     "addresses" : [
+                        "ps-bandwidth.hepnetcanada.ca"
+                     ],
+                     "description" : "University of Victoria HEPnet Bandwidth Host in Victoria BC Canada"
+                  },
+                  {
+                     "measurement_archives" : [
+                        {
+                           "read_url" : "http://ps-latency.hepnetcanada.ca:8085/perfSONAR_PS/services/pSB",
+                           "write_url" : "ps-latency.hepnetcanada.ca:8569",
+                           "type" : "perfsonarbuoy/owamp"
+                        }
+                     ],
+                     "addresses" : [
+                        "ps-latency.hepnetcanada.ca"
+                     ],
+                     "description" : "University of Victoria HEPnet Latency Host in Victoria BC Canada"
+                  }
+               ],
+               "administrators" : [
+                  {
+                     "email" : "igable@uvic.ca",
+                     "name" : "Ian Gable"
+                  }
+               ],
+               "location" : {
+                  "longitude" : "-123.310",
+                  "city" : "Victoria",
+                  "latitude" : "48.469",
+                  "state" : "BC Canada"
+               },
+               "description" : "CA-VICTORIA-WESTGRID-T2"
+            },
+            {
+               "hosts" : [
+                  {
+                     "measurement_archives" : [
+                        {
+                           "read_url" : "http://ps-bandwidth.lhcopn-mon.triumf.ca:8085/perfSONAR_PS/services/pSB",
+                           "write_url" : "ps-bandwidth.lhcopn-mon.triumf.ca:8570",
+                           "type" : "perfsonarbuoy/bwctl"
+                        }
+                     ],
+                     "addresses" : [
+                        "ps-bandwidth.lhcopn-mon.triumf.ca"
+                     ],
+                     "description" : "TRIUMF HEPnet Bandwidth Host in Vancouver BC Canada"
+                  },
+                  {
+                     "measurement_archives" : [
+                        {
+                           "read_url" : "http://ps-latency.lhcopn-mon.triumf.ca:8085/perfSONAR_PS/services/pSB",
+                           "write_url" : "ps-latency.lhcopn-mon.triumf.ca:8569",
+                           "type" : "perfsonarbuoy/owamp"
+                        }
+                     ],
+                     "addresses" : [
+                        "ps-latency.lhcopn-mon.triumf.ca"
+                     ],
+                     "description" : "TRIUMF HEPnet Latency Host in Vancouver BC Canada"
+                  }
+               ],
+               "administrators" : [
+                  {
+                     "email" : "vitaliyk@triumf.ca",
+                     "name" : "Vitaliy Kondratenko"
+                  }
+               ],
+               "location" : {
+                  "longitude" : "-123.229",
+                  "city" : "Vancouver",
+                  "latitude" : "49.247",
+                  "state" : "BC Canada"
+               },
+               "description" : "TRIUMF-LCG2"
+            },
+            {
+               "hosts" : [
+                  {
+                     "measurement_archives" : [
+                        {
+                           "read_url" : "http://ps-bandwidth.sfu.westgrid.ca:8085/perfSONAR_PS/services/pSB",
+                           "write_url" : "ps-bandwidth.sfu.westgrid.ca:8570",
+                           "type" : "perfsonarbuoy/bwctl"
+                        }
+                     ],
+                     "addresses" : [
+                        "ps-bandwidth.sfu.westgrid.ca"
+                     ],
+                     "description" : "Simon Fraser University HEPnet Bandwidth Host in Burnaby BC Canada"
+                  },
+                  {
+                     "measurement_archives" : [
+                        {
+                           "read_url" : "http://ps-latency.sfu.westgrid.ca:8085/perfSONAR_PS/services/pSB",
+                           "write_url" : "ps-latency.sfu.westgrid.ca:8569",
+                           "type" : "perfsonarbuoy/owamp"
+                        }
+                     ],
+                     "addresses" : [
+                        "ps-latency.sfu.westgrid.ca"
+                     ],
+                     "description" : "Simon Fraser University HEPnet Latency Host in Burnaby BC Canada"
+                  }
+               ],
+               "administrators" : [
+                  {
+                     "email" : "liu@sfu.ca",
+                     "name" : "Lixin Liu"
+                  }
+               ],
+               "location" : {
+                  "longitude" : "-122.919",
+                  "city" : "Burnaby",
+                  "latitude" : "49.278",
+                  "state" : "BC Canada"
+               },
+               "description" : "SFU-LCG2"
+            },
+            {
+               "hosts" : [
+                  {
+                     "measurement_archives" : [
+                        {
+                           "read_url" : "http://ps-bandwidth.atlas.ualberta.ca:8085/perfSONAR_PS/services/pSB",
+                           "write_url" : "ps-bandwidth.atlas.ualberta.ca:8570",
+                           "type" : "perfsonarbuoy/bwctl"
+                        }
+                     ],
+                     "addresses" : [
+                        "ps-bandwidth.atlas.ualberta.ca"
+                     ],
+                     "description" : "University of Alberta HEPnet Bandwidth Host in Edmonton AB Canada"
+                  },
+                  {
+                     "measurement_archives" : [
+                        {
+                           "read_url" : "http://ps-latency.atlas.ualberta.ca:8085/perfSONAR_PS/services/pSB",
+                           "write_url" : "ps-latency.atlas.ualberta.ca:8569",
+                           "type" : "perfsonarbuoy/owamp"
+                        }
+                     ],
+                     "addresses" : [
+                        "ps-latency.atlas.ualberta.ca"
+                     ],
+                     "description" : "University of Alberta HEPnet Latency Host in Edmonton AB Canada"
+                  }
+               ],
+               "administrators" : [
+                  {
+                     "email" : "erming@ualberta.ca",
+                     "name" : "Erming Pei"
+                  }
+               ],
+               "location" : {
+                  "longitude" : "-113.526",
+                  "city" : "Edmonton",
+                  "latitude" : "53.523",
+                  "state" : "AB Canada"
+               },
+               "description" : "CA-ALBERTA-WESTGRID-T2"
+            },
+            {
+               "hosts" : [
+                  {
+                     "measurement_archives" : [
+                        {
+                           "read_url" : "http://ps-bandwidth.clumeq.mcgill.ca:8085/perfSONAR_PS/services/pSB",
+                           "write_url" : "ps-bandwidth.clumeq.mcgill.ca:8570",
+                           "type" : "perfsonarbuoy/bwctl"
+                        }
+                     ],
+                     "addresses" : [
+                        "ps-bandwidth.clumeq.mcgill.ca"
+                     ],
+                     "description" : "McGill University HEPnet Bandwidth Host in Montreal QC Canada"
+                  },
+                  {
+                     "measurement_archives" : [
+                        {
+                           "read_url" : "http://ps-latency.clumeq.mcgill.ca:8085/perfSONAR_PS/services/pSB",
+                           "write_url" : "ps-latency.clumeq.mcgill.ca:8569",
+                           "type" : "perfsonarbuoy/owamp"
+                        }
+                     ],
+                     "addresses" : [
+                        "ps-latency.clumeq.mcgill.ca"
+                     ],
+                     "description" : "McGill University HEPnet Latency Host in Montreal QC Canada"
+                  }
+               ],
+               "administrators" : [
+                  {
+                     "email" : "simon.nderitu@clumeq.ca",
+                     "name" : "Simon Nderitu"
+                  }
+               ],
+               "location" : {
+                  "longitude" : "-73.582",
+                  "city" : "Montreal",
+                  "latitude" : "45.509",
+                  "state" : "QC Canada"
+               },
+               "description" : "CA-MCGILL-CLUMEQ-T2"
+            },
+            {
+               "hosts" : [
+                  {
+                     "measurement_archives" : [
+                        {
+                           "read_url" : "http://ps-bandwidth.scinet.utoronto.ca:8085/perfSONAR_PS/services/pSB",
+                           "write_url" : "ps-bandwidth.scinet.utoronto.ca:8570",
+                           "type" : "perfsonarbuoy/bwctl"
+                        }
+                     ],
+                     "addresses" : [
+                        "ps-bandwidth.scinet.utoronto.ca"
+                     ],
+                     "description" : "University of Toronto HEPnet Bandwidth Host in Toronto ON Canada"
+                  },
+                  {
+                     "measurement_archives" : [
+                        {
+                           "read_url" : "http://ps-latency.scinet.utoronto.ca:8085/perfSONAR_PS/services/pSB",
+                           "write_url" : "ps-latency.scinet.utoronto.ca:8569",
+                           "type" : "perfsonarbuoy/owamp"
+                        }
+                     ],
+                     "addresses" : [
+                        "ps-latency.scinet.utoronto.ca"
+                     ],
+                     "description" : "University of Toronto HEPnet Latency Host in Toronto ON Canada"
+                  }
+               ],
+               "administrators" : [
+                  {
+                     "email" : "groer@physics.utoronto.ca",
+                     "name" : "Leslie Groer <groer@physics.utoronto.ca>"
+                  },
+                  {
+                     "email" : "knecht@physics.utoronto.ca",
+                     "name" : "Neil Knecht"
+                  }
+               ],
+               "location" : {
+                  "longitude" : "-79.396",
+                  "city" : "Toronto",
+                  "latitude" : "43.663",
+                  "state" : "ON Canada"
+               },
+               "description" : "CA-SCINET-T2"
+            }
+         ],
+         "description" : "HEPnet Canada"
+      }
+   ],
+   "tests" : [
+      {
+         "parameters" : {
+            "protocol" : "tcp",
+            "force_bidirectional" : "1",
+            "tool" : "bwctl/iperf",
+            "type" : "perfsonarbuoy/bwctl",
+            "duration" : "30",
+            "interval" : "14400"
+         },
+         "members" : {
+            "members" : [
+               "ps-bandwidth.lhcopn-mon.triumf.ca",
+               "ps-bandwidth.sfu.westgrid.ca",
+               "ps-bandwidth.atlas.ualberta.ca",
+               "ps-bandwidth.hepnetcanada.ca",
+               "ps-bandwidth.scinet.utoronto.ca",
+               "ps-bandwidth.clumeq.mcgill.ca"
+            ],
+            "type" : "mesh"
+         },
+         "description" : "TCP BWCTL Test Between CA Bandwidth Hosts"
+      },
+      {
+         "parameters" : {
+            "force_bidirectional" : "1",
+            "loss_threshold" : "10",
+            "bucket_width" : "0.001",
+            "packet_interval" : "0.1",
+            "sample_count" : "300",
+            "packet_padding" : "0",
+            "type" : "perfsonarbuoy/owamp",
+            "session_count" : "18000"
+         },
+         "members" : {
+            "members" : [
+               "ps-latency.lhcopn-mon.triumf.ca",
+               "ps-latency.sfu.westgrid.ca",
+               "ps-latency.atlas.ualberta.ca",
+               "ps-latency.hepnetcanada.ca",
+               "ps-latency.scinet.utoronto.ca",
+               "ps-latency.clumeq.mcgill.ca"
+            ],
+            "type" : "mesh"
+         },
+         "description" : "OWAMP Test Between CA Latency Hosts"
+      }
+   ],
+   "description" : "CA Mesh"
+}
